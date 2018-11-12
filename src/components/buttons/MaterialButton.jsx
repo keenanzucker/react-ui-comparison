@@ -8,7 +8,7 @@ export default class MaterialButton extends Component {
         <Button color='primary'>Text</Button>
         <Button color='primary' variant='outlined'>Outline</Button>
         <Button color='primary' variant='contained'>Contained</Button>
-        <Button color='primary' variant='fab'>FAB</Button>
+        <Button color='primary' variant='extendedFab'> Extended FAB</Button>
       </div>
     );
   }
