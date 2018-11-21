@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SemanticButton from '../components/buttons/SemanticButton';
 import SemanticProgress from '../components/progress/SemanticProgress';
+import SemanticCard from '../components/cards/SemanticCard';
 
 class SemanticContainer extends Component {
   render() {
@@ -14,6 +15,10 @@ class SemanticContainer extends Component {
        <div className="component-container">
           <h4>Progress</h4>
           <SemanticProgress></SemanticProgress>
+       </div>
+       <div className="component-container">
+          <h4>Cards</h4>
+          <SemanticCard></SemanticCard>
        </div>
       </div>
     );
